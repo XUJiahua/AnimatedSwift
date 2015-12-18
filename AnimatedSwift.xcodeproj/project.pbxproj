@@ -12,6 +12,8 @@
 		CA4246C01C244FF700BA9385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4246BE1C244FF700BA9385 /* Main.storyboard */; };
 		CA4246C21C244FF700BA9385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4246C11C244FF700BA9385 /* Assets.xcassets */; };
 		CA4246C51C244FF700BA9385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4246C31C244FF700BA9385 /* LaunchScreen.storyboard */; };
+		CA4246CD1C2450B200BA9385 /* ASTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4246CC1C2450B200BA9385 /* ASTableViewController.swift */; };
+		CA4246CF1C2450EA00BA9385 /* ASTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4246CE1C2450EA00BA9385 /* ASTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CA4246C11C244FF700BA9385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA4246C41C244FF700BA9385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA4246C61C244FF700BA9385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4246CC1C2450B200BA9385 /* ASTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTableViewController.swift; sourceTree = "<group>"; };
+		CA4246CE1C2450EA00BA9385 /* ASTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CA4246C11C244FF700BA9385 /* Assets.xcassets */,
 				CA4246C31C244FF700BA9385 /* LaunchScreen.storyboard */,
 				CA4246C61C244FF700BA9385 /* Info.plist */,
+				CA4246CC1C2450B200BA9385 /* ASTableViewController.swift */,
+				CA4246CE1C2450EA00BA9385 /* ASTableViewCell.swift */,
 			);
 			path = AnimatedSwift;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4246BD1C244FF700BA9385 /* ViewController.swift in Sources */,
+				CA4246CD1C2450B200BA9385 /* ASTableViewController.swift in Sources */,
 				CA4246BB1C244FF700BA9385 /* AppDelegate.swift in Sources */,
+				CA4246CF1C2450EA00BA9385 /* ASTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
